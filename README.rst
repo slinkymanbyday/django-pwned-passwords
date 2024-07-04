@@ -2,14 +2,7 @@
 Django PWNED Passwords
 ======================
 
-.. image:: https://badge.fury.io/py/django-pwned-passwords.svg
-    :target: https://badge.fury.io/py/django-pwned-passwords
-
-.. image:: https://travis-ci.org/jamiecounsell/django-pwned-passwords.svg?branch=master
-    :target: https://travis-ci.org/jamiecounsell/django-pwned-passwords
-
-.. image:: https://codecov.io/gh/jamiecounsell/django-pwned-passwords/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/jamiecounsell/django-pwned-passwords
+This fork currently does not have a pypi package, install it is currently installed directly from github.
 
 django-pwned-passwords is a Django password validator that checks Troy Hunt's PWNED Passwords API to see if a password has been involved in a major security breach before.
 
@@ -31,7 +24,7 @@ Quickstart
 
 Install django-pwned-passwords::
 
-    pip install django-pwned-passwords
+    pip install git+https://github.com/slinkymanbyday/django-pwned-passwords.git
 
 Add it to your `INSTALLED_APPS`:
 
